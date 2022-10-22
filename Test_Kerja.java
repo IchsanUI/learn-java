@@ -1,7 +1,7 @@
 /**
  * coba
  */
-public class coba {
+public class Test_Kerja {
 
     public static void main(String[] args) {
         long r,sum =0;
@@ -28,3 +28,19 @@ public class coba {
 
     }
 }
+
+//VERSI JAVASCRIPT
+// let h2 = document.querySelector('h2');
+// let str = 'Psi123 hsj @1123*!j123 01123A';
+// let outStr = str.replace(/\D/g, '');
+// let num = +outStr;
+// console.log(num);
+// let sum = 0;
+
+// while (num > 0) {
+//   let r = num % 10;
+//   sum = sum + r;
+//   num = num / 10;
+// }
+// let ssum = Math.round(sum);
+// console.log(ssum - 1);

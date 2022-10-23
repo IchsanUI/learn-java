@@ -5,11 +5,12 @@ public class Test_Kerja_3 {
     public static void removeDuplicates(int[] a)
     {
         LinkedHashSet<Integer> set = new LinkedHashSet<Integer>();
- 
+        
         // adding elements to LinkedHashSet
         for (int i = 0; i < a.length; i++){
             set.add(a[i]);
         }
+        
  
         // Print the elements of LinkedHashSet
         System.out.print(set);
@@ -29,7 +30,6 @@ public class Test_Kerja_3 {
         }
 
         removeDuplicates(HasilArray);
-        
         }
     }
 

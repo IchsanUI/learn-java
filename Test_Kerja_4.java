@@ -6,21 +6,25 @@ import java.util.Arrays;
 public class Test_Kerja_4 {
 
     public static void main(String[] args) {
-        int[] arrayA = {1,2,3,4};
+        int[] arrayA = {1,2,7,4};
         int[] arrayB = {1,2,3};
         String[] hasil = new String[arrayA.length];
 
-        if (arrayA.length > arrayB.length) {
-            for (int i = 0; i < arrayA.length-arrayB.length; i++) {
-                for (int j = 0; j < arr.length; j++) {
-                    newArr[j + 1] = arr[j];
-                }
-            }
-        }
+        // if (arrayA.length > arrayB.length) {
+        //     for (int i = 0; i < arrayA.length-arrayB.length; i++) {
+        //         for (int j = 0; j < arr.length; j++) {
+        //             newArr[j + 1] = arr[j];
+        //         }
+        //     }
+        // }
 
         for (int i = 0; i < arrayA.length; i++) {
             if(i< arrayB.length){
-                hasil[i] =""+( arrayA[i]+arrayB[i]);
+                    if(arrayA[i]+arrayB[i] >= 10){
+                        hasil[i]= "*";
+                    }else{
+                        hasil[i] =""+(arrayA[i]+arrayB[i]);
+                    };
             }else{
                 hasil[i]= "*";
             }

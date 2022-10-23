@@ -5,10 +5,11 @@
 public class Test_Kerja_2 {
 
     public static void main(String[] args) {
-        String kalimat = "FRONTEND DEVELOPER";
+        String kalimat = "Front End Developer";
         String Ers = kalimat.replaceAll("[\s]","-");
         char[] resultarray = Ers.toCharArray();
-        for (int i = resultarray.length - 1; i >= 0; i--){
+        System.out.println(resultarray.length);
+        for (int i = resultarray.length-1; i >= 0; i--){
             System.out.print(resultarray[i]);
         }
 
